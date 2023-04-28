@@ -141,11 +141,10 @@
   <ItemGroup>
     <ClCompile Include="..\..\Source\PluginEditorGUI.cpp"/>
     <ClCompile Include="..\..\Source\PluginEditor.cpp"/>
-    <ClCompile Include="..\..\Source\SortingGraph.cpp"/>
-    <ClCompile Include="..\..\Source\Rack.cpp"/>
     <ClCompile Include="..\..\Source\SmartPan.cpp"/>
     <ClCompile Include="..\..\Source\VCO.cpp"/>
     <ClCompile Include="..\..\Source\Modules.cpp"/>
+    <ClCompile Include="..\..\Source\Rack.cpp"/>
     <ClCompile Include="..\..\Source\PluginProcessor.cpp"/>
     <ClCompile Include="..\..\..\..\..\..\JUCE\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
@@ -2428,14 +2427,14 @@
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_gui_extra.cpp"/>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\Connector.h"/>
     <ClInclude Include="..\..\Source\PatchBay.h"/>
     <ClInclude Include="..\..\Source\PluginEditorGUI.h"/>
     <ClInclude Include="..\..\Source\PluginEditor.h"/>
-    <ClInclude Include="..\..\Source\SortingGraph.h"/>
-    <ClInclude Include="..\..\Source\Rack.h"/>
     <ClInclude Include="..\..\Source\VCO.h"/>
     <ClInclude Include="..\..\Source\SmartPan.h"/>
     <ClInclude Include="..\..\Source\Modules.h"/>
+    <ClInclude Include="..\..\Source\Rack.h"/>
     <ClInclude Include="..\..\Source\PluginProcessor.h"/>
     <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h"/>
     <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_audio_basics\buffers\juce_AudioChannelSet.h"/>

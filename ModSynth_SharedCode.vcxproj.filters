@@ -616,12 +616,6 @@
     <ClCompile Include="..\..\Source\PluginEditor.cpp">
       <Filter>ModSynth\Source\GUI</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\SortingGraph.cpp">
-      <Filter>ModSynth\Source\DSP</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Rack.cpp">
-      <Filter>ModSynth\Source\DSP</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\SmartPan.cpp">
       <Filter>ModSynth\Source\DSP\MODULI</Filter>
     </ClCompile>
@@ -630,6 +624,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Modules.cpp">
       <Filter>ModSynth\Source\DSP\MODULI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Rack.cpp">
+      <Filter>ModSynth\Source\DSP</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PluginProcessor.cpp">
       <Filter>ModSynth\Source\DSP</Filter>
@@ -3072,6 +3069,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\Connector.h">
+      <Filter>ModSynth\Source\GUI</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\PatchBay.h">
       <Filter>ModSynth\Source\GUI</Filter>
     </ClInclude>
@@ -3081,12 +3081,6 @@
     <ClInclude Include="..\..\Source\PluginEditor.h">
       <Filter>ModSynth\Source\GUI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\SortingGraph.h">
-      <Filter>ModSynth\Source\DSP</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Rack.h">
-      <Filter>ModSynth\Source\DSP</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\VCO.h">
       <Filter>ModSynth\Source\DSP\MODULI</Filter>
     </ClInclude>
@@ -3095,6 +3089,9 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\Modules.h">
       <Filter>ModSynth\Source\DSP\MODULI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Rack.h">
+      <Filter>ModSynth\Source\DSP</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\PluginProcessor.h">
       <Filter>ModSynth\Source\DSP</Filter>
